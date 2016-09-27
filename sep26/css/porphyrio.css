@@ -8,7 +8,11 @@ body{
 nav{
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding:30px;
+  background-color: hsl(338, 92%, 31%);
+  color: white;
+  margin: 4% 13% 6%;
+
 }
 nav * {
   margin: 0;
@@ -16,7 +20,8 @@ nav * {
   text-transform: uppercase;
 }
 nav h1{
-
+justify-content: flex-start;
+margin-left: 0;
 }
 nav ul{
   display: inline-flex;
@@ -31,4 +36,94 @@ nav ul li{
 nav ul a{
   text-decoration: none;
   color: inherit;
+}
+body {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+}
+main{
+  margin: 4% 15% 6%;
+}
+section{
+  margin:15px;
+
+}
+header {
+  background-image: url(../img/img01.jpg);
+  min-height: 350px;
+  background-size: cover;
+  padding: 50px;
+
+}
+.profile div{
+  width: calc(100% / 3);
+
+}
+img:hover{
+  cursor: pointer;
+}
+
+.bio{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 15px;
+  text-align: center;
+
+
+}
+.bio p{
+  text-align: center;
+  padding: 0 60px 0;
+}
+.profile {
+  background-color: white;
+}
+.profile a{
+  display: inline-block;
+  border: 3px solid  hsl(338, 92%, 31%);
+  background-color:  hsl(338, 92%, 31%);
+  text-decoration: none;
+  padding: 1em 2em 1em 2em;
+  color: white;
+  margin-bottom: 50px;
+
+}
+footer a{
+  color: hsl(338, 92%, 31%);
+}
+
+footer div{
+ background-color:white;
+ padding: 2%;
+
+}
+footer{
+  margin: 4% 15% 6%;
+
+}
+.title h1{
+  width: 100%;
+    padding-left: 15%;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    padding-right: 15%;
+    font-size: 2.2em;
+    font-weight: 600;
+}
+#close{
+  color: gray ;
+  text-align: center;
+}
+span:hover{
+  cursor: pointer;
+}
+span{color: darkgray;
+}
+#porph{
+  font-size: 1.5em;
+}
+.bold{
+  font-size: 1em;
 }
