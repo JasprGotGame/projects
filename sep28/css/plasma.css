@@ -6,42 +6,18 @@ body{
 nav{
   background-color: hsl(346, 100%, 35%);
   color: white;
-	display: inline-block;
-	border-right: 1px solid hsl(346, 97%, 58%);
-
+ display: inline-block;
+ border-right: 1px solid hsl(346, 97%, 58%);
+  width: 100%;
 
 }
 #menu a {
-	display: block;
-	height: 80px;
-	margin: 0px;
-	padding: 0px 30px;
-	line-height: 80px;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 20px;
-	color:white;
-
-}
-nav * {
-  margin: 0;
-  padding: 0;
-  text-transform: uppercase;
-}
-
-nav ul{
-  display: inline-flex;
-  align-items: center;
-  list-style: none;
-}
-nav ul li{
-  padding: 10px;
-  margin: 0 5px;
-  font-size: 80%;
-}
-nav ul a{
-  text-decoration: none;
-  color: inherit;
+ display: block;
+ height: 80px;
+ margin: 0px;
+ padding: 0px 30px;
+ line-height: 80px;
+ text-decoration: none;
 }
 #content {
   float: left;
@@ -55,22 +31,36 @@ div {
 }
 #sidebar1 {
   float: left;
-  width: 25%;
+  width: 23%;
   margin: 0px;
   padding: 0px;
-  color: hsl(0, 0%, 47%);
+  color: hsl(346, 100%, 35%);
 }
 #sidebar2 {
   float: right;
   width: 25%;
   margin: 0px;
   padding: 0px;
-  color: hsl(0, 0%, 47%);
+  color: hsl(346, 100%, 35%);
 }
 .list-style2 li {
   padding: 5px 5px;
-  border-top: 1px solid white;
+  border-top: 1px solid #EEEEEE;
 }
 .list-style2 {
   list-style: decimal-leading-zero;;
+}
+.list-style2 a{
+  color: hsl(0, 0%, 47%);
+  text-decoration: none;
+}
+p, a {
+  text-decoration: none;
+  color: hsl(346, 100%, 35%);
+}
+p {
+  color: hsl(0, 0%, 47%);
+}
+a:hover {
+  text-decoration: underline;
 }
