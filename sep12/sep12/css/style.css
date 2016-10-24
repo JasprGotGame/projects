@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 img {
   height: 65px;
   width: auto;
@@ -53,3 +54,60 @@ aside {
 width: 40%;
 float: right;
 }
+=======
+img {
+  height: 65px;
+  width: auto;
+  margin: 0 0 0 65px;
+  position: relative;
+}
+h1 a{
+  text-decoration: none;
+  color: inherit;
+}
+h1, ul {
+  margin: 0;
+  display: inline-block;
+}
+ul {
+  float: right;
+
+}
+section:nth-of-type(1){
+  width: 100%;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 50px;
+  padding: 0 8px;
+  margin-left: 10px;
+  font-size: 15px;
+
+
+}
+ul li a{
+  text-decoration: none;
+
+}
+article{
+  width: 60%;
+  float:left;
+}
+article div:nth-of-type(1){
+  width: 50%;
+  /*float: left;*/
+
+}
+article div:nth-of-type(2){
+  width: 50%;
+  float:right;
+article h2, article div{
+  color: magenta;
+  /*float: left;*/
+
+}
+aside {
+width: 40%;
+float: right;
+}
+>>>>>>> 6bed368b0f0a09d788b1ffe45419dbf0baaa2ecb

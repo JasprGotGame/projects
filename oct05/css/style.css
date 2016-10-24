@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*body{
   margin: 0;
 }
@@ -61,3 +62,68 @@ img .wrap {
   float: left;
   shape-outside: circle();
 }
+=======
+/*body{
+  margin: 0;
+}
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+ul li{
+  width: calc(100% / 4);
+  display: inline-block;
+  background-color: hsl(129, 85%, 41%);
+  padding: 10px;
+  float: left;
+  box-sizing: border-box;
+}
+ul::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+div{
+    width: 50vw;
+    height: 100vh;
+    float: left;
+    background-image: url(http://unsplash.it/800/800?image=699);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*div img{
+  position: relative;
+  left: -50%;
+  top: -50%;
+}*/
+/*h1{
+  margin: 0;
+  font-size:  10.2vw;
+}
+p{
+  -moz-column-width:200px;
+  column-width: 200px;
+}*/
+body{
+  margin: 0;
+}
+header{
+  border: 20px solid black;
+  background-image: url(../img/gta_v_bikers.jpg);
+  min-height:100vh;
+  display: flex;
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+}
+h1{
+  font-size:10vw;
+  margin:auto;
+  color: white;
+}
+img .wrap {
+  float: left;
+  shape-outside: circle();
+}
+>>>>>>> 6bed368b0f0a09d788b1ffe45419dbf0baaa2ecb
