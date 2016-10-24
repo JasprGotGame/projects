@@ -1,0 +1,73 @@
+@import 'https://fonts.googleapis.com/css?family=Poppins';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css';
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #7E57C2;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+nav * {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+nav h1{
+
+}
+nav ul{
+  display: inline-flex;
+  align-items: center;
+  list-style: none;
+}
+nav ul li{
+  padding: 10px;
+  margin: 0 5px;
+  font-size: 80%;
+}
+nav ul a{
+  text-decoration: none;
+  color: inherit;
+}
+.content{
+  width: 65%;
+  margin: 0 auto;
+}
+#hero{
+  text-align: center;
+  position: relative;
+  padding: 50px 0 300px;
+  overflow: hidden;
+}
+#hero img{
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate3d(-50%, 50%, 0);
+}
+#three {
+  display: flex;
+}
+#three div{
+  margin: 5px;
+}
+.fa {
+  border: 3px solid #7E57C2;
+  font-size: 30px;
+  border-radius: 100%;
+  padding: 10px;
+}
+h2{
+  text-align: center;
+}
+section{
+  margin: 0 50px 0;
+}
+hr {
+  margin-top: 100px;
+  border-color: #7E57C2;
+  width: 3%;
+}

@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+img {
+  height: 65px;
+  width: auto;
+  margin: 0 0 0 65px;
+  position: relative;
+}
+header {
+  height: 500px;
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+
+}
+h1 {
+  font-size: 50px;
+  letter-spacing: -2px;
+  position: relative;
+  top: 0;
+
+}
+p{
+  position: relative;
+  font-size: 15px;
+  color: hsl(194, 84%, 66%);
+}
+h1 span {
+  color: hsl(194, 84%, 66%);
+}
+h1 a{
+  text-decoration: none;
+  color: inherit;
+}
+h1, ul {
+  margin: 0;
+  display: inline-block;
+}
+ul {
+  float: right;
+
+}
+ul li{
+  display: inline-block;
+  line-height: 50px;
+  padding: 0 8px;
+  margin-left: 10px;
+  font-size: 15px;
+
+
+}
+ul li:hover{
+  cursor: pointer;
+  border-bottom: 2px solid white;
+}
+ul li:hover, .active {
+    border-bottom: 2px solid white;
+}

@@ -1,0 +1,10 @@
+#grid{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 100px 100px 100px;
+}
+.one{
+  background-color: teal;
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 2;
+}
