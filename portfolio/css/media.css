@@ -1,0 +1,18 @@
+@media screen and (max-width: 600px){
+  .skills, .ach, .contact, .social{
+    width: 100%;
+    float: none;
+  }
+  .skills h3, .ach h3{
+    margin:0;
+    float: none;
+  }
+  li{
+    margin-left: 0;
+  }
+
+  #bio{
+    display: flex;
+    flex-direction: column;
+  }
+}

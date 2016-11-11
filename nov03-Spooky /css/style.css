@@ -1,0 +1,64 @@
+html {
+    background-image: url(../img/headbg.jpg), url(../img/bobybg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat, repeat-x;
+    background-color: black;
+}
+body {
+    color: #a5652a;
+    margin: 0;
+}
+.container, footer {
+    width: 800px;
+    margin: 0 auto;
+}
+section {
+    width: 64%;
+    float: left;
+    background-image: url(../img/leftbg.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+aside {
+    width: 34%;
+    float: right;
+    background-image: url(../img/rightbg.png), url(../img/mainbg.jpg);
+    background-position: left top;
+    background-repeat: no-repeat, repeat-x;
+}
+div .container {
+    background-color: hsl(9, 83%, 9%);
+}
+footer  {
+    background-color: black;
+}
+main::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+body > :first-child {
+    position: relative;
+  }
+body > :first-child .pk {
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+}
+.container {
+    padding: 50px 0;
+    position: relative;
+}
+body > :last-of-type .pk {
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+#mega .container {
+  display: flex;
+}
+#mega .container div{
+  margin: 20px;
+}

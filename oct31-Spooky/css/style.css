@@ -166,6 +166,18 @@ p{
     nav img{
         display: none;
     }
+    nav ul{
+        display: block;
+    }
+    nav ul li{
+        width: 80vw;
+        margin: 30px 0;
+        text-align: center;
+    }
+    nav ul li a{
+        width: 100%;
+        padding: 5% 5%;
+    }
     #body{
         display: block;
         width: 100%;
@@ -174,4 +186,5 @@ p{
         text-align: center;
         width: 100%;
     }
+
 }
