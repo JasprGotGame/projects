@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+body{
+  background-image: url('../img/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+
+
+}
+header{
+  display: inline-block ;
+  position: relative;
+  align-self: center;
+  max-width: 100%;
+  width: 396px;
+  height: 446px;
+  margin: 0 auto;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 8%;
+
+
+}
+header p{
+  margin-top: 8%;
+}
+div{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-top: 10%;
+
+}
+div::before{
+  width: 100%;
+  content: "";
+  display: block;
+  border: 1px solid #C6CBCF;
+  position: absolute;
+  top:60%;
+}
+div img{
+  border-radius: 100%;
+  border-bottom: .5px solid #C6CBCF;
+  position: relative;
+  z-index: 1;
+  border: 10px solid white;
+}
+.fa{
+  color: #C6CBCF;
+  border: 2px solid #C6CBCF;
+  border-radius: 100%;
+  padding: 15px;
+  font-size: 30px;
+  margin-top: 5%;
+
+}
+.fa-facebook{
+  padding-right: 17px;
+  padding-left: 17px;
+
+
+}
+.fa:hover{
+  color: hsla(10, 79%, 52%, 0.95);
+  border: 2px solid hsla(10, 79%, 52%, 0.95);
+  border-radius: 100%;
+}
+footer p{
+  color: white;
+  margin-top: 2.5%;
+}

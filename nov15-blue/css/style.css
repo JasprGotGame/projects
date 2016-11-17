@@ -1,0 +1,27 @@
+body{
+  background-color: #334467;
+  color: white;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+header img{
+  width: 100%;
+}
+section{
+  display: flex;
+  align-items: center;
+}
+div{
+
+}
+.three div{
+  margin-top: 15%;
+  margin-bottom: 15%;
+
+
+}
+.four div{
+  width: calc(100% / 4 );
+  align-content: space-between;
+}
