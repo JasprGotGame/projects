@@ -1,0 +1,38 @@
+@import '_colors';
+
+html, body{
+  height: 100%;
+}
+body{
+  background-color:black;
+  color:$primary;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div{
+  width: 250px;
+  height: 250px;
+  border: 1px solid $primary;
+  position: relative;
+  a{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border: 1px solid $primary;
+    $i: 1;
+    @each $color in $baseArray{
+      &:nth-child(#{$i}){
+        background-color: $color;
+      }
+      $i: $i + 1;
+    }
+
+  }
+
+
+}
