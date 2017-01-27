@@ -5,18 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <title>Editorial | Let Me Die</title>
+    <title>Editorial</title>
   </head>
   <body>
 
+      <header id="header">
+        <i id="nav" class="fa fa-bars"></i>
+
+        <div><input type="text" placeholder="Search"></div>
+        <nav>
+            <div class="header">
+              <h2>Menu</h2>
+              <hr>
+            </div>
+            <ul>
+              <li><a href="index.html">HOMEPAGE</a></li>
+              <hr>
+              <li><a href="generic.html">GENERIC</a></li>
+              <hr>
+              <li><a href="#">ELEMENTS</a></li>
+              <hr>
+              <li><a href="#">SUBMENU</a></li>
+              <hr>
+              <li><a href="#">ETIAM DOLORE</a></li>
+              <hr>
+              <li><a href="#">ADIPISCING</a></li>
+              <hr>
+              <li><a href="#">ANOTHER SUBMENU</a></li>
+              <hr>
+              <li><a href="#">MAXIMUS ERAT</a></li>
+              <hr>
+              <li><a href="#">SAPIEN MAURIS</a></li>
+              <hr>
+              <li><a href="#">AMET LACINIA</a></li>
+              <hr>
+            </ul>
+            <br>
+            <div class="header">
+              <h2>Ante interdum</h2>
+              <hr>
+            </div>
+            <ul>
+              <li><img src="img/pic07.jpg" alt="">
+                  <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+              </li>
+              <hr>
+              <li><img src="img/pic08.jpg" alt="">
+                  <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+              </li>
+              <hr>
+              <li><img src="img/pic09.jpg" alt="">
+                  <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+              </li>
+              <hr>
+            </ul>
+            <br>
+            <div class="header">
+              <h2>Get in touch</h2>
+              <hr>
+            </div>
+            <p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+            <div><i class="fa fa-envelope-o"></i><a href="">information@untitled.tld</a> <hr> </div>
+            <div><i class="fa fa-phone"></i><a href="">(000) 000-0000</a> <hr> </div>
+            <div><i class="fa fa-home"></i><a href="">1234 Somewhere Road #8254
+Nashville, TN 00000-0000</a> <hr> </div>
+            <br>
+            <p>Copyright (c) 2016 Copyright Holder All Rights Reserved.</p>
+        </nav>
+      </header>
       <div class="intro">
-        <p><a href="index.html"><b>Editorial</b> by Pixelarity</a></p>
+        <p id="nt"><a href="index.html"><b>Editorial</b> by Pixelarity</a></p>
         <div class="container">
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-          <i class="fa fa-facebook" aria-hidden="true"></i>
-          <i class="fa fa-snapchat-ghost" aria-hidden="true"></i>
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-          <i class="fa fa-medium" aria-hidden="true"></i>
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-snapchat-ghost" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-medium" aria-hidden="true"></i></a>
         </div>
       </div>
       <hr>
@@ -115,22 +179,20 @@
         </div>
       </section>
 
-  <script>
-      var navBtn = document.getElementById('nav-btn');
-      var aside = document.getElementById('aside');
+      <script>
+          var navBtn = document.getElementById('nav');
+          var header = document.getElementById('header');
 
-      navBtn.addEventListener('click', toggleAside);
+          navBtn.addEventListener('click', toggleHeader)          ;
+function toggleHeader(){
 
-      function toggleAside(){
-        // console.log(navBtn);
-        aside.classlist.add('hide-aside');
+          if(header.classList.contains('hide-header')){
+header.classList.remove('hide-header');
+          }else {
+          header.classList.add('hide-header');
+          }
+          }
+      </script>
 
-        if(aside.classList.contains('hide-aside')){
-          aside.classList.remove('hide-aside');
-        }else{
-          aside.classlist.add('hide-aside')
-        }
-      }
-    </script>
   </body>
 </html>
