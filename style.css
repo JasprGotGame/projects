@@ -1,0 +1,76 @@
+body{
+  background-image: url(img/inahackerr.jpg);
+  background-attachment: fixed;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+
+}
+#img {
+  margin: 0 auto;
+  text-align: center;}
+main{
+  color: black;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+div #me, footer{
+  padding: 20px;
+  margin: 20px;
+}
+div {
+  background-color: hsla(0, 0%, 100%, 0.5) ;
+  padding: 20px;
+  margin: 20px;
+
+
+}
+div li{
+  list-style: none;
+}
+.projects, .mail{
+  clear: both;
+  padding: 30px;
+  text-align: center;
+  text-indent: 50px;
+}
+.skills, .ach, .contact, .social{
+  width: calc(50% - 15%);
+  height: 300px;
+  box-sizing: border-box;
+}
+.ach, .social{
+  float: right;
+}
+.skills, .contact{
+  float: left;
+}
+li, a{
+  margin-bottom: 12px;
+}
+#icons{
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  font-size: 3em;
+
+
+}
+.skills h3, .ach h3{
+  margin-left: 40%;
+}
+li{
+  margin-left: 25px;
+}
+
+.fa{
+  color: #4BD357;
+}
+.fa:hover {
+  color: hsla(0, 0%, 100%, 0.5);
+}
+footer p{
+  color: hsla(0, 0%, 100%, 0.5);
+  text-align: center;
+}
